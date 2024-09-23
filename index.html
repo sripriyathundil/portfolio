@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <!-- Navigation -->
+      <nav>
+        <!-- logo -->
+        <img class="logo" src="./images/logo.png" alt="No Image" />
+        <!-- links -->
+        <ul>
+          <li class="list-items"><a class="links" href="#home">HOME</a></li>
+          <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+          <li class="list-items"><a class="links" href="#skills">SKILLS</a></li>
+          <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <!-- home content -->
+        <div class="homeContent">
+          <h1 class="animate__animated animate__wobble" id="username">I'm Sripriya <span id="lname">S</span></h1>
+          <p id="userDetails">
+            This is my official portfolio website to describe all <br />
+            Details and Work Experience in Web Development.
+          </p>
+          <a id="download" href="./Sripriya Resume.pdf" download
+            >Download CV</a
+          >
+        </div>
+        <!-- home image -->
+        <div class="homeImage">
+          <img
+            id="shape"
+            class="group1"
+            src="./images/shape.png"
+            alt="no image"
+          />
+          <img
+            id="girl"
+            class="group1"
+            src="./images/girl.png"
+            alt="no image"
+          />
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <div class="sectionhead">
+          <h2 class="mainHead">About Me</h2>
+          <span class="subHead">Introduction</span>
+        </div>
+        <div class="aboutBody">
+          <div data-aos="fade-right" class="aboutImage">
+            <img class="img1" src="./images/about.jpg" alt="no image" />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Dedicated problem-solver with a strong foundation in programming.
+Eager to leverage my technical skills to contribute to innovative software
+solutions and collaborate effectively within a dynamic team environment.
+            </p>
+            <div class="informations">
+              <div class="infoBox">
+                <i class="fa-solid fa-user"></i>
+                <span>Sripriya S</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-phone"></i>
+                <span>7736865350</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>sripriya20020@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skills">
+        <div class="skillsHead">
+          <h2 class="mainHead">Skills</h2>
+          <span class="subHead">My Skills</span>
+        </div>
+        <div class="skillContent">
+          <div class="progressBar">
+            <div class="bars">
+              <h3 class="barHead">HTML</h3>
+              <span class="barPercent">89%</span>
+              <div class="basebar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">CSS</h3>
+              <span class="barPercent">83%</span>
+              <div class="basebar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">JS</h3>
+              <span class="barPercent">79%</span>
+              <div class="basebar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">React</h3>
+              <span class="barPercent">92%</span>
+              <div class="basebar"></div>
+              <div data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="skillImage">
+            <img class="mySkill" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Webinar_Wrap_Up_Upskilling_Re_skilling_Strategies.jpg" alt="skills" />
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section id="contact">
+        <div class="sectionhead">
+          <h2 class="mainHead">Contacts</h2>
+          <span class="subHead">My Contacts</span>
+        </div>
+        <div class="iconCollections">
+          <!-- linked in -->
+           <div class="icon">
+            <a href="https://www.linkedin.com/in/sripriya-s-689714279/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+           </div>
+          <!-- github -->
+          <div class="icon">
+            <a href="https://github.com/sripriyathundil" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+           </div>
+          <!-- twitter -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sripriya-s-689714279/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+           </div>
+          <!-- facebook -->
+          <div class="icon">
+            <a href="https://www.facebook.com/share/vnJfxtW9qLMEcdLy/?mibextid=qi2Omg" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+           </div>
+          <!-- instagram -->
+          <div class="icon">
+            <a href="https://www.instagram.com/_.sriipriyaaa?igsh=dmlxaHp0Z2g4Nnh1" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+           </div>
+          <!-- mail -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sripriya-s-689714279/" target="_blank"><i class="fa-solid fa-envelope brands"></i></i></a>
+           </div>
+        </div>
+      </section>
+      <!-- footer -->
+       <footer>
+        <p id="copyright">&copy; My portfolio Website 2024, All Rights Reserved to &reg; Sripriya S</p>
+        <div class="icon upArrow">
+          <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>    
+         </div>
+       </footer>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
